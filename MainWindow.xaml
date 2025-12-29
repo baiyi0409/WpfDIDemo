@@ -1,0 +1,28 @@
+﻿<Window
+    x:Class="WpfDIDemo.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WpfDIDemo"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewmodels="clr-namespace:WpfDIDemo.ViewModels"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    d:DataContext="{d:DesignInstance Type=viewmodels:MainViewModel}"
+    mc:Ignorable="d">
+    <Grid>
+        <StackPanel
+            Width="240"
+            VerticalAlignment="Center"
+            Orientation="Vertical">
+            <TextBlock Text="{Binding Message}" />
+            <Button
+                Height="25"
+                Margin="0,10,0,0"
+                Command="{Binding SayHelloCommand}">
+                SayHello
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

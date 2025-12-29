@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDIDemo", "WpfDIDemo.csproj", "{B445618D-66D2-193A-8774-6ACE914896FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B445618D-66D2-193A-8774-6ACE914896FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B445618D-66D2-193A-8774-6ACE914896FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B445618D-66D2-193A-8774-6ACE914896FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B445618D-66D2-193A-8774-6ACE914896FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BBE68D8-D9BB-4FFF-B135-725A6F8437F2}
+	EndGlobalSection
+EndGlobal
