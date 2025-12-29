@@ -10,6 +10,9 @@ namespace WpfDIDemo.ViewModels.Main
     public interface IMainViewModel
     {
         //定义方法
+
         void SayHello();
+
+        void ChangeLanguage();
     }
 }
