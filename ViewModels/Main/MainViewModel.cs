@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using Velopack;
 using WpfDIDemo.Options;
 using WpfDIDemo.Services.LocalizationService;
 using WpfDIDemo.ViewModels.Main;
